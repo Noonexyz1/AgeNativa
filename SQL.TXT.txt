@@ -1,0 +1,45 @@
+CREATE TABLE CONTACTOS(
+	ID INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	NOMBRE VARCHAR(50) NOT NULL,
+	CORREO VARCHAR(100) NOT NULL,
+	TELEFONO VARCHAR(20) NOT NULL
+);
+
+INSERT INTO CONTACTOS(NOMBRE, CORREO, TELEFONO) VALUES ('Bruno Diaz','bruno@mail.com','77712345');
+INSERT INTO CONTACTOS(NOMBRE, CORREO, TELEFONO) VALUES ('Zoila Vaca','vaca@mail.com','77723456');
+
+INSERT INTO CONTACTOS(NOMBRE, CORREO, TELEFONO)
+VALUES 
+('Diego Sánchez', 'diegosanchez@mail.com', '555-1234'),
+('Valeria Torres', 'valeriatorres@mail.com', '555-5678'),
+('Andrés Gómez', 'andresgomez@mail.com', '555-9012'),
+('Renata Aguilar', 'renataaguilar@mail.com', '555-3456'),
+('Gabriel Castro', 'gabrielcastro@mail.com', '555-7890'),
+('Camila Espinoza', 'camilaespinoza@mail.com', '555-2345'),
+('Fabián Moreno', 'fabianmoreno@mail.com', '555-6789'),
+('Victoria Rojas', 'victoriarojas@mail.com', '555-0123'),
+('Bruno Cárdenas', 'brunocardenas@mail.com', '555-4567'),
+('Natalia Valdez', 'nataliavaldez@mail.com', '555-8901'),
+('Ricardo Reyes', 'ricardoreyes@mail.com', '555-2345'),
+('Alejandra Miranda', 'alejandramiranda@mail.com', '555-6789'),
+('Tomás González', 'tomasgonzalez@mail.com', '555-0123'),
+('Carolina Maldonado', 'carolinamaldonado@mail.com', '555-4567'),
+('Sergio García', 'sergiogarcia@mail.com', '555-8901'),
+('Isabela Pacheco', 'isabelapacheco@mail.com', '555-2345'),
+('Matías Rivas', 'matiasrivas@mail.com', '555-6789'),
+('Fernanda Díaz', 'fernandadiaz@mail.com', '555-0123'),
+('Juan Pablo Fernández', 'juanpablofernandez@mail.com', '555-4567'),
+('Daniela Navarro', 'danielanavarro@mail.com', '555-8901'),
+('Santiago Álvarez', 'santiagoalvarez@mail.com', '555-2345'),
+('Luciana Salazar', 'lucianasalazar@mail.com', '555-6789'),
+('Javier Ortiz', 'javierortiz@mail.com', '555-0123'),
+('Catalina Vargas', 'catalinavargas@mail.com', '555-4567'),
+('Luisa Montoya', 'luisamontoya@mail.com', '555-8901'),
+('Emiliano Carrillo', 'emilianocarrillo@mail.com', '555-2345'),
+('Sofía Zapata', 'sofiazapata@mail.com', '555-6789'),
+('Pablo Muñoz', 'pablomunoz@mail.com', '555-0123'),
+('Valentina Ochoa', 'valentinaochoa@mail.com', '555-4567'),
+('Facundo Medina', 'facundomedina@mail.com', '555-8901'),
+('Mariana Soto', 'marianasoto@mail.com'),
+('Andrés Díaz', 'andresdiaz@mail.com'),
+('Ana Gutiérrez', 'anagutierrez@mail.com', '555-0123');
